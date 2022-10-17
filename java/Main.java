@@ -6,6 +6,6 @@ class Main{
         car.license = "jmr233";
         car.driver = "Ivan";
         car.passenger = 4;
-        System.out.println("Car license: " + car.license);
+        car.printDataCar();
     }
 }

@@ -1,3 +1,4 @@
+'''
 class Usuario:
     def __init__ (self, nombre, edad, empleado):
         self.nombre = nombre
@@ -20,4 +21,22 @@ empleado_2 = Usuario("Daniel", 27, "No")
 
 empleado_1.aprobracion()
 empleado_2.aprobracion()
-            
+'''     
+
+#Metodos
+class Celular:
+    def __init__(self, marca, modelo, camara):
+        self.marca = marca
+        self.modelo = modelo
+        self.camara = camara
+
+    def llamar(self):
+        print(f"Esta haciendo una llamda desde el: {self.modelo}")
+
+    def colgar(self):
+        print(f"Colgo la llamada desde el {self.modelo}")
+
+celular_1 = Celular("pollito", "s25", "450mp")
+celular_2 = Celular("gatico", "pro 25", "1520 mp")
+
+celular_1.colgar()

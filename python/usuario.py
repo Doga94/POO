@@ -39,4 +39,4 @@ class Celular:
 celular_1 = Celular("pollito", "s25", "450mp")
 celular_2 = Celular("gatico", "pro 25", "1520 mp")
 
-celular_1.colgar()
+celular_2.llamar()

@@ -1,5 +1,6 @@
 def agregar_persona_directorio():
     directorio = {}
+
     def agregar(nombre, edad, ciudad):
         directorio[nombre] = {"edad": edad, "ciudad": ciudad}
         return directorio
